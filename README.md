@@ -28,12 +28,12 @@
   * SMA - an investor making decisions based on technical analysis of individual shares using the Simple Moving Average (SMA n) - the moving arithmetic average of the price over the last n turns (in our task, we use n=5 and n=10). The investor starts making decisions based on the signal from the moment when SMA 10 can be calculated (at least from the 10th turn).
 
 📈 PROGRAM INPUT FILE EXAMPLE: (lines starting with # should be ignored):
-\# 6 investors: 4x RANDOM, 2x SMA
-R R R R S S
-\# 3 stocks with latest transaction value
-APL:145 MSFT:300 GOOGL:2700
-\# starting amount of money and stocks for investors (same for everyone) 
-100000 APL:5 MSFT:15 GOOGL:3
+* \# 6 investors: 4x RANDOM, 2x SMA
+* R R R R S S
+* \# 3 stocks with latest transaction value
+* APL:145 MSFT:300 GOOGL:2700
+* \# starting amount of money and stocks for investors (same for everyone) 
+* 100000 APL:5 MSFT:15 GOOGL:3
 
 📈 PROGRAM OUTPUT:
 Program verifies the correctness of the input data, particularly ensuring that the portfolio contains stocks that are being traded, and should print the final 
