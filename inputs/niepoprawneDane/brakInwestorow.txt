@@ -1,0 +1,5 @@
+# asdasdassd
+# asdasdasdasdada
+APPL:65
+# początkowy stan portfeli (identyczny dla wszystkich inwestorów)
+100 APPL:100
